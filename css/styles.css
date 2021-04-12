@@ -133,12 +133,14 @@ img {
   background-color: var(--link-color);
 }
 
-.page-section {
+.hero-section {
   text-align: center;
+  height: 600px;
+  padding: 200px 452px;
   background-color: #2f303a;
 }
 
-.page-title {
+.hero-title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -197,16 +199,14 @@ img {
 
 .grid-item {
   flex-basis: calc((100% - 4 * 30) / 4);
+  text-align: center;
   margin-left: 30px;
   margin-top: 30px;
+  background-color: #ffffff;
 }
 
 .team {
   background-color: #f5f4fa;
-}
-
-.team-item {
-  text-align: center;
 }
 
 .team-member {
